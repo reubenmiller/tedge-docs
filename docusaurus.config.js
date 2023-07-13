@@ -135,6 +135,18 @@ const config = {
         },
         items: [
           {
+            type: 'doc',
+            docId: 'overview',
+            label: 'Documentation',
+            position: 'left',
+          },
+          {
+            type: 'doc',
+            docId: 'case-studies/index',
+            label: 'Case Studies',
+            position: 'left',
+          },
+          {
             type: 'docsVersionDropdown',
             position: 'right',
             dropdownItemsAfter: [],
